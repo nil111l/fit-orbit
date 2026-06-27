@@ -50,8 +50,7 @@ npm run android:open
 Build a debug APK after installing JDK and Android Studio / Android SDK:
 
 ```powershell
-cd android
-.\gradlew.bat assembleDebug
+npm run android:debug
 ```
 
 APK output:

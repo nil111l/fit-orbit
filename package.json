@@ -13,6 +13,7 @@
     "windows:portable": "npm run build && powershell -ExecutionPolicy Bypass -File scripts/package-windows.ps1",
     "windows:build": "npm run build && electron-builder --win",
     "android:sync": "npm run build && cap sync android",
+    "android:debug": "npm run android:sync && powershell -ExecutionPolicy Bypass -File scripts/build-android-debug.ps1",
     "android:open": "cap open android"
   },
   "build": {
