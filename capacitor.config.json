@@ -1,0 +1,8 @@
+{
+  "appId": "com.fitorbit.app",
+  "appName": "Fit Orbit",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
